@@ -129,18 +129,15 @@ img {
  ************************************************/
 
  /*768px*/
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px){
     .container{
-        width: fit-content;
-    }
-    .steps{
-        background-color: aqua;
+        width: 100%;
     }
 }
 
-@media screen and (min-height: 480px){
+@media screen and (max-width: 480px){
     .container{
-        width: fit-content;
+        width: 100%;
     }
     .row{
         display: flex;
